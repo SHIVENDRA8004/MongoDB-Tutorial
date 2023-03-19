@@ -14,7 +14,8 @@ Note: In mongoDB there two essential things , 1 Database 2 Collections, Collecti
 
 Note: After creating database you might not get displayed your database when you run command :> show dbs , it is because you need to enter atleast one document into the database to display it.
 
-6. db.<collection_name>.insert({"key":"value"}): This command will add the object inside the collection of your database
+6. db.<collection_name>.insertMany([{"key":"value"},{"key":"value"}]): This command will add multiple the object
+   inside the collection of your database
    db.db.<collection_name>.insertOne({"key":"value"}) : Run this command if you want to insert only one object or file
 
 7. db.dropDatabase(): If you run this command inside any database then that database will get deleted
@@ -24,3 +25,9 @@ Note: After creating database you might not get displayed your database when you
 9. exit: if you want to get out of mongosh terminal then run this command
 
 10. db.<collection_name>.find() : This command will display all your files or objects present inside that collection
+
+11. db.test.find().limit(x) : This command will return only first x objects if present
+
+12. db.test.find().sort({"key":"value"}): This command will display the returned objects in sorted order
+
+13. db.test.find().sort({"key":"value"}).limit(x) : This command will limit the sorted returned objects, it will return only first x objects
