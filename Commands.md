@@ -48,3 +48,23 @@ Note: After creating database you might not get displayed your database when you
 
 20. db.test.find({age:{$lte:13}})
     db.test.find({age:{$lt:14}})
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
