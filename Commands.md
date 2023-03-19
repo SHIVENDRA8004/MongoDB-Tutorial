@@ -47,3 +47,4 @@ Note: After creating database you might not get displayed your database when you
 19. db.test.find({age:{$gt:13}})
 
 20. db.test.find({age:{$lte:13}})
+    db.test.find({age:{$lt:14}})
