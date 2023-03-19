@@ -19,3 +19,5 @@ Note: After creating database you might not get displayed your database when you
 7. db.dropDatabase(): If you run this command inside any database then that database will get deleted
 
 8. cls : if you want to clear your terminal then run this command
+
+9. exit: if you want to get out of mongosh terminal then run this command
