@@ -31,3 +31,17 @@ Note: After creating database you might not get displayed your database when you
 12. db.test.find().sort({"key":"value"}): This command will display the returned objects in sorted order, we can also sort objects by multiple keys
 
 13. db.test.find().sort({"key":"value"}).limit(x) : This command will limit the sorted returned objects, it will return only first x objects
+
+14. db.test.find().skip(1).limit(2)
+
+15. db.test.find({name:"Shiva"})
+
+16. db.test.find({name:"Manav"}, {age:1})
+
+17.
+
+18.
+
+19.
+
+20.
