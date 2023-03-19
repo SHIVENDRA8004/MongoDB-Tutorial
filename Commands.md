@@ -15,3 +15,7 @@ Note: In mongoDB there two essential things , 1 Database 2 Collections, Collecti
 Note: After creating database you might not get displayed your database when you run command :> show dbs , it is because you need to enter atleast one document into the database to display it.
 
 6. db.<collection_name>.insert({"key":"value"}): This command will add the object inside the collection of your database
+
+7. db.dropDatabase(): If you run this command inside any database then that database will get deleted
+
+8. cls : if you want to clear your terminal then run this command
