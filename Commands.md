@@ -37,11 +37,13 @@ Note: After creating database you might not get displayed your database when you
 15. db.test.find({name:"Shiva"})
 
 16. db.test.find({name:"Manav"}, {age:1})
+    db.test.find({name:"Manav"}, {age:1,\_id:0}) // Remove \ if you run these commands
+    db.test.find({name:"Manav"}, {\_id:0})
 
-17.
+17. db.test.find({name:{$eq:"Shiva"}})
 
-18.
+18. db.test.find({name:{$ne:"Shiva"}})
 
-19.
+19. db.test.find({age:{$gt:13}})
 
 20.
