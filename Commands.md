@@ -28,6 +28,6 @@ Note: After creating database you might not get displayed your database when you
 
 11. db.test.find().limit(x) : This command will return only first x objects if present
 
-12. db.test.find().sort({"key":"value"}): This command will display the returned objects in sorted order
+12. db.test.find().sort({"key":"value"}): This command will display the returned objects in sorted order, we can also sort objects by multiple keys
 
 13. db.test.find().sort({"key":"value"}).limit(x) : This command will limit the sorted returned objects, it will return only first x objects
