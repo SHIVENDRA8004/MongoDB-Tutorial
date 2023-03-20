@@ -57,7 +57,7 @@ Note: After creating database you might not get displayed your database when you
 23. db.users.find({$and:[{age:20}]})
     db.users.find({$and:[{age:20},{name:"manav"}]})
 
-24.
+24. db.test.find({$or:[{age:{$lte:14}},{name:"Manav"}]})
 
 25.
 
