@@ -49,7 +49,7 @@ Note: After creating database you might not get displayed your database when you
 20. db.test.find({age:{$lte:13}})
     db.test.find({age:{$lt:14}})
 
-21.
+21. db.test.find({age:{$exists:true}})
 
 22.
 
