@@ -54,7 +54,7 @@ db.test.find({age:{$exists:false}})
 
 22.db.users.find({age:{$gte:20,$lte:13}})
 
-23.
+23.db.users.find({$and:[{age:20}]})
 
 24.
 
