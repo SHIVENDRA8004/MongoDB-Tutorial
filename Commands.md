@@ -50,6 +50,7 @@ Note: After creating database you might not get displayed your database when you
     db.test.find({age:{$lt:14}})
 
 21. db.test.find({age:{$exists:true}})
+db.test.find({age:{$exists:false}})
 
 22.
 
