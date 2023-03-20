@@ -52,7 +52,7 @@ Note: After creating database you might not get displayed your database when you
 21. db.test.find({age:{$exists:true}})
 db.test.find({age:{$exists:false}})
 
-22.
+22.db.users.find({age:{$gte:20,$lte:13}})
 
 23.
 
