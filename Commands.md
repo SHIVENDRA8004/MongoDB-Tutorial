@@ -63,9 +63,9 @@ Note: After creating database you might not get displayed your database when you
 
 26. db.users.find({age:{$gt:13}} )
 
-27. db.users.find({%expr:{$gt:["column1","column"]}} )
+27. db.users.find({%expr:{$gt:["column1","column2"]}} )
 
-28.
+28.db.users.find({$expr:{$gt:["$column1","$column2"]}} )
 
 29.
 
