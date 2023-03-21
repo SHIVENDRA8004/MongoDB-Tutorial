@@ -59,7 +59,7 @@ Note: After creating database you might not get displayed your database when you
 
 24. db.test.find({$or:[{age:{$lte:14}},{name:"Manav"}]})
 
-25.
+25. db.users.find({age:{$not:{$lte:13}} })
 
 26.
 
