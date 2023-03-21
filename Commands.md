@@ -61,7 +61,7 @@ Note: After creating database you might not get displayed your database when you
 
 25. db.users.find({age:{$not:{$lte:13}} })
 
-26.
+26. db.users.find({age:{$gt:13}} )
 
 27.
 
